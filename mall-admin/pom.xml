@@ -17,10 +17,6 @@
     <name>mall-admin</name>
     <description>mall-admin project for mall</description>
 
-    <properties>
-        <java.version>17</java.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

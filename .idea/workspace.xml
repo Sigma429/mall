@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b55a0d99-0d54-40f9-ab7b-fb8267dd8a86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/admin/mall-admin-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/admin/mall-admin-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/demo/mall-demo-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/demo/mall-demo-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/gateway/mall-gateway-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/gateway/mall-gateway-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/portal/mall-portal-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/portal/mall-portal-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/search/mall-search-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/search/mall-search-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/docker/docker-compose-app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/docker/docker-compose-env.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/docker/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/elk/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/elk/logstash.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-admin-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-admin-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-auth-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-auth-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-gateway-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-gateway-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-monitor-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-monitor-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-portal-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-portal-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-search-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/k8s/mall-search-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/app.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/cms.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/home.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/oms.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/pms.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/sms.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/mind/ums.emmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pdm/mall.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pdm/mall.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pos/业务架构图.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pos/微服务系统架构图.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pos/系统架构图.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pos/项目开发进度图.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/reference/deploy_windows.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/reference/dev_flow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/reference/function.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/eclipse_import_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/eclipse_import_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_admin_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_business_arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_dev_flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_dev_flow_note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_micro_service_arch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_run_new_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_swarm_windows_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mall_system_arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_content.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_member.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_order.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_portal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/mind_sale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/re_mall_app_show.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/resource/re_mall_business_arch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-auth.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-gateway.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-monitor.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-portal.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/mall-search.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sql/mall.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/MallAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/test/java/com/sigma429/mall/MallAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-auth/src/main/java/com/sigma429/mall/MallAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-auth/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-auth/src/test/java/com/sigma429/mall/MallAuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/sigma429/mall/MallCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/test/java/com/sigma429/mall/MallCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/sigma429/mall/MallDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/test/java/com/sigma429/mall/MallDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-gateway/src/main/java/com/sigma429/mall/MallGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-gateway/src/test/java/com/sigma429/mall/MallGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/sigma429/mall/MallMbgApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/test/java/com/sigma429/mall/MallMbgApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-monitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-monitor/src/main/java/com/sigma429/mall/MallMonitorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-monitor/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-monitor/src/test/java/com/sigma429/mall/MallMonitorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-portal/src/main/java/com/sigma429/mall/MallPortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-portal/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-portal/src/test/java/com/sigma429/mall/MallPortalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mall-search" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.9.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2bnjdxNlEf3gX8PdDeIHNWAk30O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "JDK17.0.5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/mall/mall/mall-admin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\mall\mall" />
+      <recent name="D:\Project\mall\mall\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MallAdminApplication">
+    <configuration name="MallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallMbgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-mbg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallMbgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallMonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall-portal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallPortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-cf227e86" />
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b55a0d99-0d54-40f9-ab7b-fb8267dd8a86" name="Changes" comment="" />
+      <created>1706857828327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706857828327</updated>
+      <workItem from="1706857829520" duration="2869000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

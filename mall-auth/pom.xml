@@ -4,35 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.sigma429.mall</groupId>
+        <artifactId>mall</artifactId>
+        <version>0.0.1</version>
     </parent>
 
     <groupId>com.sigma429.mall</groupId>
-    <artifactId>mall</artifactId>
+    <artifactId>mall-auth</artifactId>
     <version>0.0.1</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <name>mall</name>
-    <description>mall</description>
-
-    <properties>
-        <java.version>17</java.version>
-    </properties>
-
-    <modules>
-        <module>mall-admin</module>
-        <module>mall-auth</module>
-        <module>mall-common</module>
-        <module>mall-demo</module>
-        <module>mall-mbg</module>
-        <module>mall-gateway</module>
-        <module>mall-monitor</module>
-        <module>mall-portal</module>
-        <module>mall-search</module>
-    </modules>
+    <name>mall-auth</name>
+    <description>mall-auth project for mall</description>
 
     <dependencies>
         <dependency>
