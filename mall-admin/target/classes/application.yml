@@ -1,0 +1,27 @@
+server:
+  port: 8080
+# \u6570\u636E\u6E90\u914D\u7F6E
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:mysql://192.168.10.100:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+
+
+
+
+
+
+
+
+
+
+
+# MyBatis mapper.xml\u8DEF\u5F84\u914D\u7F6E
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:mapper/*.xml
