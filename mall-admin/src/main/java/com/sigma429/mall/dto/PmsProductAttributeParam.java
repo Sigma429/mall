@@ -1,5 +1,6 @@
 package com.sigma429.mall.dto;
 
+import com.sigma429.mall.vaildator.FlagValidator;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

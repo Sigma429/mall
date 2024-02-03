@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @Version:v1.0
  */
 @Configuration
-// @EnableTransactionManagement
+@EnableTransactionManagement
 @MapperScan({"com.sigma429.mall.mapper","com.sigma429.mall.dao"})
 public class MyBatisConfig {
 }

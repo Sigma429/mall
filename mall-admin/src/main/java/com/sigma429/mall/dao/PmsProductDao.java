@@ -1,5 +1,6 @@
 package com.sigma429.mall.dao;
 
+import com.sigma429.mall.dto.PmsProductResult;
 import org.apache.ibatis.annotations.Param;
 
 
