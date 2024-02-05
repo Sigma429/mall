@@ -24,7 +24,7 @@ public class SwaggerConfig extends BaseSwaggerConfig {
                 .apiBasePackage("com.sigma429.mall.controller")
                 .title("mall后台系统")
                 .description("mall后台相关接口文档")
-                .contactName("sigma429")
+                .contactName("Sigma429")
                 .version("1.0")
                 .enableSecurity(true)
                 .build();

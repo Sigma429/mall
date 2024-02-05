@@ -5,40 +5,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55a0d99-0d54-40f9-ab7b-fb8267dd8a86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/component/ResourceRoleRulesHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/CmsPrefrenceAreaProductRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/CmsSubjectProductRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderOperateHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderReturnApplyDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsMemberPriceDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductAttributeCategoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductAttributeDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductAttributeValueDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductCategoryAttributeRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductCategoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductFullReductionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductLadderDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsProductVertifyRecordDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/PmsSkuStockDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/SmsCouponDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/SmsCouponProductCategoryRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/SmsCouponProductRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/SmsFlashPromotionProductRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsAdminRoleRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/MallAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/MallAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/controller/UmsRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/vaildator/FlagValidatorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/sigma429/mall/vaildator/FlagValidatorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderReturnApplyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/OmsOrderReturnApplyDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsAdminRoleRelationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsAdminRoleRelationDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/dao/UmsRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/bootstrap-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/bootstrap-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/MallAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/config/MyBatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/controller/UmsRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/CmsPrefrenceAreaProductRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/CmsSubjectProductRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/OmsOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/OmsOrderOperateHistoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/OmsOrderReturnApplyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsMemberPriceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductAttributeCategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductAttributeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductAttributeValueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductCategoryAttributeRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductCategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductFullReductionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductLadderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsProductVertifyRecordDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/PmsSkuStockDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/SmsCouponDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/SmsCouponProductCategoryRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/SmsCouponProductRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/SmsFlashPromotionProductRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/UmsAdminRoleRelationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dao/UmsRoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/BucketPolicyConfigDTO$BucketPolicyConfigDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/BucketPolicyConfigDTO$Statement$StatementBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/BucketPolicyConfigDTO$Statement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/BucketPolicyConfigDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/MinioUploadDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsMoneyInfoParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsOrderDeliveryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsOrderDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsOrderQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsOrderReturnApplyResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsReceiverInfoParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsReturnApplyQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OmsUpdateStatusParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OssCallbackParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OssCallbackResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/OssPolicyResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsBrandParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductAttributeCategoryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductAttributeParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductCategoryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductCategoryWithChildrenItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/PmsProductResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/ProductAttrInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/SmsCouponParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/SmsFlashPromotionProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/SmsFlashPromotionSessionDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/UmsAdminLoginParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/UmsAdminParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/UmsMenuNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/dto/UpdateAdminPasswordParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/CmsPrefrenceAreaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/CmsSubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OmsCompanyAddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OmsOrderReturnApplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OmsOrderReturnReasonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OmsOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OmsOrderSettingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/OssService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsBrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsProductAttributeCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsProductAttributeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsProductCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/PmsSkuStockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsCouponHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsCouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsFlashPromotionProductRelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsFlashPromotionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsFlashPromotionSessionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsHomeAdvertiseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsHomeBrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsHomeNewProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsHomeRecommendProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/SmsHomeRecommendSubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsAdminCacheService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsMemberLevelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsResourceCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsResourceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/UmsRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsAdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/vaildator/FlagValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/target/classes/com/sigma429/mall/vaildator/FlagValidatorClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,11 +180,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.MallAdminApplication.executor": "Run",
+    "Spring Boot.MallAuthApplication.executor": "Run",
     "Spring Boot.MallGatewayApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "JDK17.0.5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project/mall/mall/mall-admin/src/main/resources/dao",
+    "last_opened_file_path": "D:/Project/mall/mall/mall-gateway/src/main/java/com/sigma429/mall/component",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +195,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -120,18 +206,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\mall\mall\mall-admin\src\main\resources\dao" />
-      <recent name="D:\Project\mall\mall\mall-gateway\src\main\java\com\sigma429\mall" />
-      <recent name="D:\Project\mall\mall\mall-gateway\src\main\resources" />
-      <recent name="D:\Project\mall\mall\mall-admin\src\main\resources" />
-      <recent name="D:\Project\mall\mall\mall-admin\src\main\java\com\sigma429\mall\vaildator" />
+      <recent name="D:\Project\mall\mall\mall-gateway\src\main\java\com\sigma429\mall\component" />
+      <recent name="D:\Project\mall\mall\mall-gateway\src\main\java\com\sigma429\mall\config" />
+      <recent name="D:\Project\mall\mall\mall-auth\src\main\resources" />
+      <recent name="D:\Project\mall\mall\mall-auth\src\main\java\com\sigma429\mall\config" />
+      <recent name="D:\Project\mall\mall\mall-auth\src\main\java\com\sigma429\mall\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sigma429.mall.component" />
+      <recent name="com.sigma429.mall.service.impl" />
+      <recent name="com.sigma429.mall.service" />
       <recent name="com.sigma429.mall.config" />
-      <recent name="com.sigma429.mall.api" />
-      <recent name="com.sigma429.mall.domain" />
-      <recent name="com.sigma429.mall" />
+      <recent name="com.sigma429.mall.authorization" />
+      <recent name="com.sigma429.mall.filter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,7 +229,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.MallAdminApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sigma429.mall.Generator" />
       <module name="mall-mbg" />
@@ -230,7 +316,7 @@
       <updated>1706857828327</updated>
       <workItem from="1706857829520" duration="9784000" />
       <workItem from="1706893570409" duration="368000" />
-      <workItem from="1706939017745" duration="21936000" />
+      <workItem from="1706939017745" duration="42668000" />
     </task>
     <servers />
   </component>

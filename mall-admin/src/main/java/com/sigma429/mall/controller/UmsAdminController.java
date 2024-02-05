@@ -13,6 +13,7 @@ import com.sigma429.mall.service.UmsAdminService;
 import com.sigma429.mall.service.UmsRoleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -42,13 +43,17 @@ public class UmsAdminController {
     @ApiOperation(value = "用户注册")
     @PostMapping("/register")
     public CommonResult<UmsAdmin> register(@Validated @RequestBody UmsAdminParam umsAdminParam) {
-        return null;
+        UmsAdmin umsAdmin = adminService.register(umsAdminParam);
+        if (umsAdmin == null) {
+            return CommonResult.failed();
+        }
+        return CommonResult.success(umsAdmin);
     }
 
     @ApiOperation(value = "登录以后返回token")
     @PostMapping("/login")
     public CommonResult login(@Validated @RequestBody UmsAdminLoginParam umsAdminLoginParam) {
-        return null;
+        return adminService.login(umsAdminLoginParam.getUsername(),umsAdminLoginParam.getPassword());;
     }
 
     @ApiOperation(value = "获取当前登录用户信息")
