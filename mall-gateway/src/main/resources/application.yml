@@ -8,50 +8,80 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true #\u5F00\u542F\u4ECE\u6CE8\u518C\u4E2D\u5FC3\u52A8\u6001\u521B\u5EFA\u8DEF\u7531\u7684\u529F\u80FD\uFF0C\u5229\u7528\u5FAE\u670D\u52A1\u540D\u8FDB\u884C\u8DEF\u7531
+          enabled: true
           lower-case-service-id: true #\u4F7F\u7528\u5C0F\u5199service-id
       routes: #\u914D\u7F6E\u8DEF\u7531\u8DEF\u5F84
-        #        - id: mall-auth
-        #          uri: lb://mall-auth
-        #          predicates:
-        #            - Path=/mall-auth/**
-        #          filters:
-        #            - StripPrefix=1
+#        - id: mall-auth
+#          uri: lb://mall-auth
+#          predicates:
+#            - Path=/mall-auth/**
+#          filters:
+#            - StripPrefix=1
         - id: mall-admin
           uri: lb://mall-admin
           predicates:
             - Path=/mall-admin/**
           filters:
             - StripPrefix=1
-  #        - id: mall-portal
-  #          uri: lb://mall-portal
-  #          predicates:
-  #            - Path=/mall-portal/**
-  #          filters:
-  #            - StripPrefix=1
-  #        - id: mall-search
-  #          uri: lb://mall-search
-  #          predicates:
-  #            - Path=/mall-search/**
-  #          filters:
-  #            - StripPrefix=1
-  #        - id: mall-demo
-  #          uri: lb://mall-demo
-  #          predicates:
-  #            - Path=/mall-demo/**
-  #          filters:
-  #            - StripPrefix=1
+#        - id: mall-portal
+#          uri: lb://mall-portal
+#          predicates:
+#            - Path=/mall-portal/**
+#          filters:
+#            - StripPrefix=1
+#        - id: mall-search
+#          uri: lb://mall-search
+#          predicates:
+#            - Path=/mall-search/**
+#          filters:
+#            - StripPrefix=1
+#        - id: mall-demo
+#          uri: lb://mall-demo
+#          predicates:
+#            - Path=/mall-demo/**
+#          filters:
+#            - StripPrefix=1
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: 'http://localhost:8201/mall-auth/rsa/publicKey' #\u914D\u7F6ERSA\u7684\u516C\u94A5\u8BBF\u95EE\u5730\u5740
   redis:
     database: 0
     port: 6379
     host: 192.168.10.100
     password:
-
-#management: #\u5F00\u542FSpringBoot Admin\u7684\u76D1\u63A7
-#  endpoints:
-#    web:
-#      exposure:
-#        include: '*'
-#  endpoint:
-#    health:
-#      show-details: always
+secure:
+  ignore:
+    urls: #\u914D\u7F6E\u767D\u540D\u5355\u8DEF\u5F84
+      - "/doc.html"
+      - "/swagger-resources/**"
+      - "/swagger/**"
+      - "/*/v2/api-docs"
+      - "/*/*.js"
+      - "/*/*.css"
+      - "/*/*.png"
+      - "/*/*.ico"
+      - "/webjars/**"
+      - "/actuator/**"
+      - "/mall-auth/oauth/token"
+      - "/mall-auth/rsa/publicKey"
+      - "/mall-search/**"
+      - "/mall-portal/sso/login"
+      - "/mall-portal/sso/register"
+      - "/mall-portal/sso/getAuthCode"
+      - "/mall-portal/home/**"
+      - "/mall-portal/product/**"
+      - "/mall-portal/brand/**"
+      - "/mall-portal/alipay/**"
+      - "/mall-admin/admin/login"
+      - "/mall-admin/admin/register"
+      - "/mall-admin/minio/upload"
+management: #\u5F00\u542FSpringBoot Admin\u7684\u76D1\u63A7
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

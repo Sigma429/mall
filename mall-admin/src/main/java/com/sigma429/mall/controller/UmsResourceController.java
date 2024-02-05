@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * ClassName:UmsResourceController
  * Package:com.sigma429.mall.controller
- * Description:
+ * Description:后台资源管理Controller
  * @Author:14亿少女的梦-Sigma429
  * @Create:2024/02/04 - 14:02
  * @Version:v1.0
@@ -25,32 +25,49 @@ import java.util.Map;
 @Api(tags = "UmsResourceController", description = "后台资源管理")
 @RequestMapping("/resource")
 public class UmsResourceController {
+
     @Autowired
     private UmsResourceService resourceService;
 
     @ApiOperation("添加后台资源")
     @PostMapping("/create")
     public CommonResult create(@RequestBody UmsResource umsResource) {
-        return null;
+        int count = resourceService.create(umsResource);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 
     @ApiOperation("修改后台资源")
     @PostMapping("/update/{id}")
     public CommonResult update(@PathVariable Long id,
                                @RequestBody UmsResource umsResource) {
-        return null;
+        int count = resourceService.update(id, umsResource);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 
     @ApiOperation("根据ID获取资源详情")
     @GetMapping("/{id}")
     public CommonResult<UmsResource> getItem(@PathVariable Long id) {
-        return null;
+        UmsResource umsResource = resourceService.getItem(id);
+        return CommonResult.success(umsResource);
     }
 
     @ApiOperation("根据ID删除后台资源")
     @PostMapping("/delete/{id}")
     public CommonResult delete(@PathVariable Long id) {
-        return null;
+        int count = resourceService.delete(id);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 
     @ApiOperation("分页模糊查询后台资源")
@@ -60,18 +77,21 @@ public class UmsResourceController {
                                                       @RequestParam(required = false) String urlKeyword,
                                                       @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
                                                       @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
-        return null;
+        List<UmsResource> resourceList = resourceService.list(categoryId, nameKeyword, urlKeyword, pageSize, pageNum);
+        return CommonResult.success(CommonPage.restPage(resourceList));
     }
 
     @ApiOperation("查询所有后台资源")
     @GetMapping("/listAll")
     public CommonResult<List<UmsResource>> listAll() {
-        return null;
+        List<UmsResource> resourceList = resourceService.listAll();
+        return CommonResult.success(resourceList);
     }
 
     @ApiOperation("初始化资源角色关联数据")
     @GetMapping("/initResourceRolesMap")
     public CommonResult initResourceRolesMap() {
-        return null;
+        Map<String, List<String>> resourceRolesMap = resourceService.initResourceRolesMap();
+        return CommonResult.success(resourceRolesMap);
     }
 }

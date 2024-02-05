@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * ClassName:UmsResourceCategoryController
  * Package:com.sigma429.mall.controller
- * Description:
+ * Description:后台资源分类管理Controller
  * @Author:14亿少女的梦-Sigma429
  * @Create:2024/02/04 - 14:10
  * @Version:v1.0
@@ -29,25 +29,41 @@ public class UmsResourceCategoryController {
     @ApiOperation("查询所有后台资源分类")
     @GetMapping("/listAll")
     public CommonResult<List<UmsResourceCategory>> listAll() {
-        return null;
+        List<UmsResourceCategory> resourceList = resourceCategoryService.listAll();
+        return CommonResult.success(resourceList);
     }
 
     @ApiOperation("添加后台资源分类")
     @PostMapping("/create")
     public CommonResult create(@RequestBody UmsResourceCategory umsResourceCategory) {
-        return null;
+        int count = resourceCategoryService.create(umsResourceCategory);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 
     @ApiOperation("修改后台资源分类")
     @PostMapping("/update/{id}")
     public CommonResult update(@PathVariable Long id,
                                @RequestBody UmsResourceCategory umsResourceCategory) {
-        return null;
+        int count = resourceCategoryService.update(id, umsResourceCategory);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 
     @ApiOperation("根据ID删除后台资源")
     @PostMapping("/delete/{id}")
     public CommonResult delete(@PathVariable Long id) {
-        return null;
+        int count = resourceCategoryService.delete(id);
+        if (count > 0) {
+            return CommonResult.success(count);
+        } else {
+            return CommonResult.failed();
+        }
     }
 }

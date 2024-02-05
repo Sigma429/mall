@@ -3,3 +3,13 @@ server:
 spring:
   application:
     name: mall-monitor
+  profiles:
+    active: dev
+  security: # \u914D\u7F6E\u767B\u5F55\u7528\u6237\u540D\u548C\u5BC6\u7801
+    user:
+      name: sigma429
+      password: 1234
+  boot: # \u4E0D\u663E\u793Aadmin-server\u7684\u76D1\u63A7\u4FE1\u606F
+    admin:
+      discovery:
+        ignored-services: ${spring.application.name}

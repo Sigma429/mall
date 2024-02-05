@@ -43,15 +43,15 @@ public class SecurityUser implements UserDetails {
 
     }
 
-    public SecurityUser(UserDTO userDto) {
-        this.setId(userDto.getId());
-        this.setUsername(userDto.getUsername());
-        this.setPassword(userDto.getPassword());
-        this.setEnabled(userDto.getStatus() == 1);
-        this.setClientId(userDto.getClientId());
-        if (userDto.getRoles() != null) {
+    public SecurityUser(UserDTO userDTO) {
+        this.setId(userDTO.getId());
+        this.setUsername(userDTO.getUsername());
+        this.setPassword(userDTO.getPassword());
+        this.setEnabled(userDTO.getStatus() == 1);
+        this.setClientId(userDTO.getClientId());
+        if (userDTO.getRoles() != null) {
             authorities = new ArrayList<>();
-            userDto.getRoles().forEach(item -> authorities.add(new SimpleGrantedAuthority(item)));
+            userDTO.getRoles().forEach(item -> authorities.add(new SimpleGrantedAuthority(item)));
         }
     }
 

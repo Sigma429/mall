@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * ClassName:UmsRoleServiceImpl
  * Package:com.sigma429.mall.service.impl
- * Description:
+ * Description:后台角色管理Service实现类
  * @Author:14亿少女的梦-Sigma429
  * @Create:2024/02/03 - 23:02
  * @Version:v1.0

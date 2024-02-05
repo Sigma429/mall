@@ -35,7 +35,7 @@ public class ResourceServerConfig {
     private final IgnoreUrlsRemoveJwtFilter ignoreUrlsRemoveJwtFilter;
 
     @Bean
-    public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
+    public SecurityWebFilterChain spring5SecurityFilterChain(ServerHttpSecurity http) {
         http.oauth2ResourceServer().jwt()
                 .jwtAuthenticationConverter(jwtAuthenticationConverter());
         // 自定义处理JWT请求头过期或签名错误的结果
@@ -43,11 +43,16 @@ public class ResourceServerConfig {
         // 对白名单路径，直接移除JWT请求头
         http.addFilterBefore(ignoreUrlsRemoveJwtFilter, SecurityWebFiltersOrder.AUTHENTICATION);
         http.authorizeExchange()
-                .pathMatchers(ArrayUtil.toArray(ignoreUrlsConfig.getUrls(), String.class)).permitAll()// 白名单配置
-                .anyExchange().access(authorizationManager)// 鉴权管理器配置
+                // 白名单配置
+                .pathMatchers(ArrayUtil.toArray(ignoreUrlsConfig.getUrls(), String.class)).permitAll()
+                // 鉴权管理器配置
+                .anyExchange().access(authorizationManager)
                 .and().exceptionHandling()
-                .accessDeniedHandler(restfulAccessDeniedHandler)// 处理未授权
-                .authenticationEntryPoint(restAuthenticationEntryPoint)// 处理未认证
+                // 处理未授权
+                .accessDeniedHandler(restfulAccessDeniedHandler)
+                // 处理未认证
+                .authenticationEntryPoint(restAuthenticationEntryPoint)
+                // 关闭csrf攻击防御
                 .and().csrf().disable();
         return http.build();
     }

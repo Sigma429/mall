@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * ClassName:UmsResourceCategoryServiceImpl
  * Package:com.sigma429.mall.service.impl
- * Description:
+ * Description:后台资源分类管理Service实现类
  * @Author:14亿少女的梦-Sigma429
  * @Create:2024/02/04 - 14:12
  * @Version:v1.0

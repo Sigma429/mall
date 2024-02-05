@@ -36,6 +36,24 @@ management: #\u5F00\u542FSpringBoot Admin\u7684\u76D1\u63A7
     web:
       exposure:
         include: '*'
+  endpoint:
+    health:
+      show-details: always
+# \u6DFB\u52A0\u540E\u4F1A\u5F00\u542Fadmin\u7684\u65E5\u5FD7\u76D1\u63A7,\u662F\u5426\u6709\u5176\u4ED6\u66F4\u597D\u7684\u89E3\u51B3\u65B9\u6848?
+#logging:
+#  pattern:
+#    # \u65E5\u5FD7\u65E5\u671F\u683C\u5F0F
+#    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+#  # \u65E5\u5FD7\u6587\u4EF6\u8F93\u51FA
+#  file:
+#    name: logging.log
+#  # \u6587\u4EF6\u5F52\u6863\u4E0E\u5206\u5272
+#  logback:
+#    rollingpolicy:
+#      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz
+#      max-file-size: 100MB
+#      max-request-size: 100MB
+
 
 
 

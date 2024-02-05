@@ -6,3 +6,6 @@ spring:
       config:
         server-addr: http://192.168.10.100:8848
         file-extension: yaml
+
+logstash:
+  host: 192.168.10.100

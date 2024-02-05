@@ -22,12 +22,13 @@ import java.util.List;
 public class IgnoreUrlsRemoveJwtFilter implements WebFilter {
     @Autowired
     private IgnoreUrlsConfig ignoreUrlsConfig;
+
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
         ServerHttpRequest request = exchange.getRequest();
         URI uri = request.getURI();
         PathMatcher pathMatcher = new AntPathMatcher();
-        //白名单路径移除JWT请求头
+        // 白名单路径移除JWT请求头
         List<String> ignoreUrls = ignoreUrlsConfig.getUrls();
         for (String ignoreUrl : ignoreUrls) {
             if (pathMatcher.match(ignoreUrl, uri.getPath())) {
