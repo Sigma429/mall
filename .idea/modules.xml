@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mall.iml" filepath="$PROJECT_DIR$/.idea/mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-admin-web/mall-admin-web.iml" filepath="$PROJECT_DIR$/mall-admin-web/mall-admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-app-web/mall-app-web.iml" filepath="$PROJECT_DIR$/mall-app-web/mall-app-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -9,8 +9,8 @@ spring:
       discovery:
         locator:
           enabled: true
-          lower-case-service-id: true #\u4F7F\u7528\u5C0F\u5199service-id
-      routes: #\u914D\u7F6E\u8DEF\u7531\u8DEF\u5F84
+          lower-case-service-id: true #使用小写service-id
+      routes: #配置路由路径
         - id: mall-auth
           uri: lb://mall-auth
           predicates:
@@ -45,7 +45,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: 'http://localhost:8201/mall-auth/rsa/publicKey' #\u914D\u7F6ERSA\u7684\u516C\u94A5\u8BBF\u95EE\u5730\u5740
+          jwk-set-uri: 'http://localhost:8201/mall-auth/rsa/publicKey' #配置RSA的公钥访问地址
   redis:
     database: 0
     port: 6379
@@ -53,7 +53,7 @@ spring:
     password:
 secure:
   ignore:
-    urls: #\u914D\u7F6E\u767D\u540D\u5355\u8DEF\u5F84
+    urls: #配置白名单路径
       - "/doc.html"
       - "/swagger-resources/**"
       - "/swagger/**"
@@ -78,7 +78,7 @@ secure:
       - "/mall-admin/admin/register"
       - "/mall-admin/admin/info"
       - "/mall-admin/minio/upload"
-management: #\u5F00\u542FSpringBoot Admin\u7684\u76D1\u63A7
+management: #开启SpringBoot Admin的监控
   endpoints:
     web:
       exposure:
