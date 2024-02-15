@@ -211,7 +211,7 @@
         <appender-ref ref="LOG_STASH_ERROR"/>
     </root>
 
-    <logger name="com.sigma429.mall.common.log.WebLogAspect" level="DEBUG">
+    <logger name="com.sigma429.mall.log.WebLogAspect" level="DEBUG">
         <appender-ref ref="LOG_STASH_RECORD"/>
     </logger>
 

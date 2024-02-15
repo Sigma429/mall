@@ -11,12 +11,12 @@ spring:
           enabled: true
           lower-case-service-id: true #\u4F7F\u7528\u5C0F\u5199service-id
       routes: #\u914D\u7F6E\u8DEF\u7531\u8DEF\u5F84
-#        - id: mall-auth
-#          uri: lb://mall-auth
-#          predicates:
-#            - Path=/mall-auth/**
-#          filters:
-#            - StripPrefix=1
+        - id: mall-auth
+          uri: lb://mall-auth
+          predicates:
+            - Path=/mall-auth/**
+          filters:
+            - StripPrefix=1
         - id: mall-admin
           uri: lb://mall-admin
           predicates:
@@ -76,6 +76,7 @@ secure:
       - "/mall-portal/alipay/**"
       - "/mall-admin/admin/login"
       - "/mall-admin/admin/register"
+      - "/mall-admin/admin/info"
       - "/mall-admin/minio/upload"
 management: #\u5F00\u542FSpringBoot Admin\u7684\u76D1\u63A7
   endpoints:

@@ -23,6 +23,9 @@
     2. 大致理解gateway模块(鉴权未完全理解)
     3. Spring Boot Admin学习, monitor模块完成
     4. Elastic Stack 搭建日志收集系统(未完成)
+- Day5
+    1. Elastic Stack 搭建日志收集系统已完成
+    2.
 
 ### 学习进度
 
