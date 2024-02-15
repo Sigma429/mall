@@ -1,24 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-mbg/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-portal/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-search/pom.xml" />
-      </list>
-    </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="false" project-jdk-name="JDK17.0.5" project-jdk-type="JavaSDK" />
 </project>

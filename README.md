@@ -5,7 +5,7 @@
 `在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。
 
 ## 学习记录
-
+### 后端
 - Day1
     1. 理解项目整体架构和资料
 - Day2
@@ -25,9 +25,10 @@
     4. Elastic Stack 搭建日志收集系统(未完成)
 - Day5
     1. Elastic Stack 搭建日志收集系统已完成
-    2.
+- Day6
+    1. 
 
-### 学习进度
+#### 学习进度
 
 1. admin
 2. auth
@@ -43,11 +44,11 @@
 
 ### 系统架构
 
-![系统架构图](./document/resource/mall_micro_service_arch.jpg)
+![系统架构图](mall/document/resource/mall_micro_service_arch.jpg)
 
 ### 业务架构
 
-![业务架构图](./document/resource/re_mall_business_arch.jpg)
+![业务架构图](mall/document/resource/re_mall_business_arch.jpg)
 
 ### 组织结构
 
@@ -136,22 +137,22 @@ mall
 
 - 查看注册中心注册服务信息，访问地址：http://192.168.10.100:8848/nacos/
 
-![](./document/resource/mall_swarm_run_new_01.png)
+![](mall/document/resource/mall_swarm_run_new_01.png)
 
 - 监控中心应用信息，访问地址：http://192.168.10.100:8101
 
-![](./document/resource/mall_swarm_run_new_02.png)
+![](mall/document/resource/mall_swarm_run_new_02.png)
 
-![](./document/resource/mall_swarm_run_new_04.png)
+![](mall/document/resource/mall_swarm_run_new_04.png)
 
 - API文档信息，访问地址：http://192.168.10.100:8201
 
-![](./document/resource/mall_swarm_run_05.png)
+![](mall/document/resource/mall_swarm_run_05.png)
 
 - 日志收集系统信息，访问地址：http://192.168.10.100:5601
 
-![](./document/resource/mall_swarm_run_new_06.png)
+![](mall/document/resource/mall_swarm_run_new_06.png)
 
 - 可视化容器管理，访问地址：http://192.168.10.100:9000
 
-![](./document/resource/mall_swarm_run_new_08.png)
+![](mall/document/resource/mall_swarm_run_new_08.png)
