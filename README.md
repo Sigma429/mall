@@ -148,8 +148,6 @@ src -- 源码目录
   运行项目，运行成功后会自动打开下面地址（将浏览器改为手机模式）：http://localhost:8080
 - 如果浏览器没有启动的话，可以直接访问如下地址访问：http://localhost:8080
 
-
-
 ## mall-admin-web
 
 ### 前言
@@ -197,85 +195,105 @@ src -- 源码目录
 - 在IDEA命令行中运行命令：`npm run dev`,运行项目;
 - 访问地址：[http://localhost:8090](http://localhost:8090) 即可打开后台管理系统页面;
 
-
-
 ## 技术选型
 
 ### 后端技术
 
-| 技术                   | 说明                 | 官网                                                 |
-| ---------------------- | -------------------- | ---------------------------------------------------- |
-| Spring Cloud           | 微服务框架           | https://spring.io/projects/spring-cloud              |
-| Spring Cloud Alibaba   | 微服务框架           | https://github.com/alibaba/spring-cloud-alibaba      |
-| Spring Boot            | 容器+MVC框架         | https://spring.io/projects/spring-boot               |
+| 技术                     | 说明            | 官网                                                   |
+|------------------------|---------------|------------------------------------------------------|
+| Spring Cloud           | 微服务框架         | https://spring.io/projects/spring-cloud              |
+| Spring Cloud Alibaba   | 微服务框架         | https://github.com/alibaba/spring-cloud-alibaba      |
+| Spring Boot            | 容器+MVC框架      | https://spring.io/projects/spring-boot               |
 | Spring Security Oauth2 | 认证和授权框架       | https://spring.io/projects/spring-security-oauth     |
-| MyBatis                | ORM框架              | http://www.mybatis.org/mybatis-3/zh/index.html       |
+| MyBatis                | ORM框架         | http://www.mybatis.org/mybatis-3/zh/index.html       |
 | MyBatisGenerator       | 数据层代码生成       | http://www.mybatis.org/generator/index.html          |
-| PageHelper             | MyBatis物理分页插件  | http://git.oschina.net/free/Mybatis_PageHelper       |
-| Knife4j                | 文档生产工具         | https://github.com/xiaoymin/swagger-bootstrap-ui     |
-| Elasticsearch          | 搜索引擎             | https://github.com/elastic/elasticsearch             |
-| RabbitMq               | 消息队列             | https://www.rabbitmq.com/                            |
-| Redis                  | 分布式缓存           | https://redis.io/                                    |
-| MongoDb                | NoSql数据库          | https://www.mongodb.com/                             |
-| Docker                 | 应用容器引擎         | https://www.docker.com/                              |
-| Druid                  | 数据库连接池         | https://github.com/alibaba/druid                     |
-| OSS                    | 对象存储             | https://github.com/aliyun/aliyun-oss-java-sdk        |
-| MinIO                  | 对象存储             | https://github.com/minio/minio                       |
-| JWT                    | JWT登录支持          | https://github.com/jwtk/jjwt                         |
-| LogStash               | 日志收集             | https://github.com/logstash/logstash-logback-encoder |
-| Lombok                 | 简化对象封装工具     | https://github.com/rzwitserloot/lombok               |
-| Seata                  | 全局事务管理框架     | https://github.com/seata/seata                       |
+| PageHelper             | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper       |
+| Knife4j                | 文档生产工具        | https://github.com/xiaoymin/swagger-bootstrap-ui     |
+| Elasticsearch          | 搜索引擎          | https://github.com/elastic/elasticsearch             |
+| RabbitMq               | 消息队列          | https://www.rabbitmq.com/                            |
+| Redis                  | 分布式缓存         | https://redis.io/                                    |
+| MongoDb                | NoSql数据库      | https://www.mongodb.com/                             |
+| Docker                 | 应用容器引擎        | https://www.docker.com/                              |
+| Druid                  | 数据库连接池        | https://github.com/alibaba/druid                     |
+| OSS                    | 对象存储          | https://github.com/aliyun/aliyun-oss-java-sdk        |
+| MinIO                  | 对象存储          | https://github.com/minio/minio                       |
+| JWT                    | JWT登录支持       | https://github.com/jwtk/jjwt                         |
+| LogStash               | 日志收集          | https://github.com/logstash/logstash-logback-encoder |
+| Lombok                 | 简化对象封装工具      | https://github.com/rzwitserloot/lombok               |
+| Seata                  | 全局事务管理框架      | https://github.com/seata/seata                       |
 | Portainer              | 可视化Docker容器管理 | https://github.com/portainer/portainer               |
 | Jenkins                | 自动化部署工具       | https://github.com/jenkinsci/jenkins                 |
-| Kubernetes             | 应用容器管理平台     | https://kubernetes.io/                               |
+| Kubernetes             | 应用容器管理平台      | https://kubernetes.io/                               |
 
 ### 前端技术
 
-| 技术       | 说明                  | 官网                           |
-| ---------- | --------------------- | ------------------------------ |
-| Vue        | 前端框架              | https://vuejs.org/             |
-| Vue-router | 路由框架              | https://router.vuejs.org/      |
-| Vuex       | 全局状态管理框架      | https://vuex.vuejs.org/        |
-| Element    | 前端UI框架            | https://element.eleme.io/      |
-| Axios      | 前端HTTP框架          | https://github.com/axios/axios |
+| 技术         | 说明             | 官网                             |
+|------------|----------------|--------------------------------|
+| Vue        | 前端框架           | https://vuejs.org/             |
+| Vue-router | 路由框架           | https://router.vuejs.org/      |
+| Vuex       | 全局状态管理框架       | https://vuex.vuejs.org/        |
+| Element    | 前端UI框架         | https://element.eleme.io/      |
+| Axios      | 前端HTTP框架       | https://github.com/axios/axios |
 | v-charts   | 基于Echarts的图表框架 | https://v-charts.js.org/       |
 
 ### 移动端技术
 
-| 技术         | 说明             | 官网                                    |
-| ------------ | ---------------- | --------------------------------------- |
-| Vue          | 核心前端框架     | https://vuejs.org                       |
+| 技术           | 说明       | 官网                                      |
+|--------------|----------|-----------------------------------------|
+| Vue          | 核心前端框架   | https://vuejs.org                       |
 | Vuex         | 全局状态管理框架 | https://vuex.vuejs.org                  |
-| uni-app      | 移动端前端框架   | https://uniapp.dcloud.io                |
-| mix-mall     | 电商项目模板     | https://ext.dcloud.net.cn/plugin?id=200 |
-| luch-request | HTTP请求框架     | https://github.com/lei-mu/luch-request  |
+| uni-app      | 移动端前端框架  | https://uniapp.dcloud.io                |
+| mix-mall     | 电商项目模板   | https://ext.dcloud.net.cn/plugin?id=200 |
+| luch-request | HTTP请求框架 | https://github.com/lei-mu/luch-request  |
 
-## 学习记录
+## 学习记录与收获
 
 ### 后端
 
 - Day1
-  1. 理解项目整体架构和资料
+    1. 理解项目整体架构和资料
 - Day2
-  1. mybatis-generator配置与使用，并加入swagger注解
-  2. 后台理解权限模块逻辑，admin模块搭建
-  3. gateway网关搭建
-  4. knife4j接口文档配置与使用
-  5. 通用工具类部分理解
+    1. mybatis-generator配置与使用，并加入swagger注解
+    2. 后台理解权限模块逻辑，admin模块搭建
+    3. gateway网关搭建
+    4. knife4j接口文档配置与使用
+    5. 通用工具类部分理解
 - Day3
-  1. 权限框架的初步搭建
-  2. swagger配置代码理解
-  3. swagger2注释理解
+    1. 权限框架的初步搭建
+    2. swagger配置代码理解
+    3. swagger2注释理解
 - Day4
-  1. 理解auth模块(未debug)
-  2. 大致理解gateway模块(鉴权未完全理解)
-  3. Spring Boot Admin学习, monitor模块完成
-  4. Elastic Stack 搭建日志收集系统(未完成)
+    1. 理解auth模块(未debug)
+    2. 大致理解gateway模块(鉴权未完全理解)
+    3. Spring Boot Admin学习, monitor模块完成
+    4. Elastic Stack 搭建日志收集系统(未完成)
 - Day5
-  1. Elastic Stack 搭建日志收集系统已完成
+    1. Elastic Stack 搭建日志收集系统已完成
 - Day6
-  1. 整合前端项目
-  2. 完全理解auth模块和gateway模块
+    1. 整合前端项目
+    2. 完全理解auth模块和gateway模块
+- Day7
+    1. 权限业务逻辑编码完成
+    2. PageHelper和mybatis-generator常用api实践
+    3. update操作service层最好设计成用实体类,不管是什么字段，方便统一修改
+    4. 单个数据库操作,用返回的count判断是否成功.多个数据库操作,用@Transactional字段保证事务的一致性
+    5. 认证与鉴权流程总结
+        - auth
+            1. 认证服务器配置 (刷新令牌和密码模式、jwt增强、jwt.jks、加载用户信息(
+               UserDetailsService的实现类的实现类会调用获取当前用户信息接口并进行多情况判断))
+            2. 暴露RSA公钥接口和获取token接口
+        - gateway
+            1. 资源服务器配置 (对白名单路径，直接移除JWT请求头的过滤器、白名单配置、鉴权管理器配置、处理未授权、处理未认证)
+            2. 鉴权管理器(
+               放行白名单、放行跨域的预检请求、不同用户体系登录不允许互相访问、放行非管理端、校验管理端路径的权限)
+            3. 全局过滤器将登录用户的JWT转化成用户信息，从token中解析用户信息并设置到Header(user)中去
+        - 登录流程
+            1. 登录接口远程调用获取token接口，匹配用户信息(UserDetailsService实现类)，返回token(认证服务器)
+            2. 拿到token后，所有的请求统一经网关路由转发、检验认证和鉴权，才能访问到资源服务器(指微服务应用)
+            3. ResourceRoleRulesHolder类会在容器初始化时向redis中添加auth:resourceRolesMap
+            4. 随后调用/admin/info接口获取当前登录用户信息，会经过网关模块(过滤器处理，检验认证和鉴权)
+               ，从Header的user中获取部分用户信息，最终从缓存或数据库中获取全部用户信息(资源服务器)
+            5. 其他请求的请求Header中都会带有token，并统一经网关路由转发、检验认证和鉴权
 
 #### 学习进度
 

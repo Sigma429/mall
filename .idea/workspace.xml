@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33bdc7f-aa81-4956-aced-0d3f8619f212" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/component/ResourceRoleRulesHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/component/ResourceRoleRulesHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/test/java/com/sigma429/mall/MallAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/test/java/com/sigma429/mall/MallAdminApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/authorization/AuthorizationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/authorization/AuthorizationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/filter/AuthGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/filter/AuthGlobalFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/authorization/AuthorizationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/authorization/AuthorizationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/filter/AuthGlobalFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/filter/AuthGlobalFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +46,9 @@
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -65,7 +77,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "JDK17.0.5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project/mall/mall/mall-auth/src/main/resources/jwt.jks",
+    "last_opened_file_path": "D:/Project/mall/mall/mall-auth/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\mall\mall\mall-auth\src\main\resources" />
       <recent name="D:\Project\mall\mall" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -107,62 +120,70 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MallAdminApplication">
-    <configuration name="MallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-monitor" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallMonitorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-portal" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallPortalApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="MallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-search" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sigma429.mall.MallSearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MallAdminApplication" />
+      <item itemvalue="Spring Boot.MallAuthApplication" />
+      <item itemvalue="Spring Boot.MallDemoApplication" />
+      <item itemvalue="Spring Boot.MallGatewayApplication" />
+      <item itemvalue="Spring Boot.MallMonitorApplication" />
+      <item itemvalue="Spring Boot.MallPortalApplication" />
+      <item itemvalue="Spring Boot.MallSearchApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MallAdminApplication" />
+        <item itemvalue="Spring Boot.MallAdminApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -184,7 +205,7 @@
       <workItem from="1707999946102" duration="42000" />
       <workItem from="1707999993635" duration="21000" />
       <workItem from="1708000028903" duration="66000" />
-      <workItem from="1708000109796" duration="13347000" />
+      <workItem from="1708000109796" duration="41766000" />
     </task>
     <servers />
   </component>

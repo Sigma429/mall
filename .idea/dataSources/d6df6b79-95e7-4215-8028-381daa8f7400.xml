@@ -22,6 +22,8 @@
     <schema id="15" parent="1" name="7"/>
     <schema id="16" parent="1" name="8"/>
     <schema id="17" parent="1" name="9"/>
-    <string id="18" parent="2" name="a"/>
+    <hash-table id="18" parent="2" name="auth:resourceRolesMap"/>
+    <string id="19" parent="2" name="a"/>
+    <string id="20" parent="2" name="mall:ums:admin:3"/>
   </database-model>
 </dataSource>

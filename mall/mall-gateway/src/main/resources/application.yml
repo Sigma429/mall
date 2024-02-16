@@ -77,7 +77,6 @@ secure:
       - "/mall-admin/admin/login"
       - "/mall-admin/admin/register"
       - "/mall-admin/minio/upload"
-      - "/mall-admin/**"
 management: #开启SpringBoot Admin的监控
   endpoints:
     web:
