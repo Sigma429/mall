@@ -83,6 +83,7 @@ public class AuthorizationManager implements ReactiveAuthorizationManager<Author
         Map<Object, Object> resourceRolesMap = redisTemplate.opsForHash().entries(AuthConstant.RESOURCE_ROLES_MAP_KEY);
         Iterator<Object> iterator = resourceRolesMap.keySet().iterator();
         List<String> authorities = new ArrayList<>();
+        // TODO
         while (iterator.hasNext()) {
             String pattern = (String) iterator.next();
             if (pathMatcher.match(pattern, uri.getPath())) {
@@ -92,11 +93,17 @@ public class AuthorizationManager implements ReactiveAuthorizationManager<Author
         authorities = authorities.stream().map(i -> i = AuthConstant.AUTHORITY_PREFIX + i).collect(Collectors.toList());
         // 认证通过且角色匹配的用户可访问当前路径
         return mono
+                // 过滤出已经通过身份验证的认证对象
                 .filter(Authentication::isAuthenticated)
+                // 将认证对象中的权限转换为一个 Flux，以便进行后续的处理
                 .flatMapIterable(Authentication::getAuthorities)
+                // 从权限对象中提取权限的字符串表示
                 .map(GrantedAuthority::getAuthority)
+                // 检查是否有任何一个权限存在于给定的 authorities 列表中
                 .any(authorities::contains)
+                // 将上述检查的结果映射为一个 AuthorizationDecision 对象
                 .map(AuthorizationDecision::new)
+                // 如果上述操作为空（没有匹配的权限），则使用默认的 AuthorizationDecision 对象，表示不允许访问
                 .defaultIfEmpty(new AuthorizationDecision(false));
     }
 

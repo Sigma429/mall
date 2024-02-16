@@ -275,15 +275,15 @@ src -- 源码目录
   1. Elastic Stack 搭建日志收集系统已完成
 - Day6
   1. 整合前端项目
-  2. 
+  2. 完全理解auth模块和gateway模块
 
 #### 学习进度
 
 1. admin
-2. auth
+2. auth √
 3. common
 4. demo
-5. gateway
+5. gateway √
 6. mbg √
 7. monitor √
 8. portal

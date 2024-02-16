@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33bdc7f-aa81-4956-aced-0d3f8619f212" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/test/java/com/sigma429/mall/MallAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/test/java/com/sigma429/mall/MallAdminApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-auth/src/main/java/com/sigma429/mall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/authorization/AuthorizationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/authorization/AuthorizationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/authorization/AuthorizationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/authorization/AuthorizationManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +58,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.MallAdminApplication.executor": "Run",
+    "Spring Boot.MallAdminApplication.executor": "Debug",
     "Spring Boot.MallAuthApplication.executor": "Run",
     "Spring Boot.MallGatewayApplication.executor": "Run",
     "Spring Boot.MallMonitorApplication.executor": "Run",
@@ -70,8 +78,17 @@
     "settings.editor.selected.configurable": "File.Encoding",
     "ts.external.directory.path": "D:\\Idea\\IntelliJ IDEA 2023.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\mall\mall" />
@@ -167,7 +184,7 @@
       <workItem from="1707999946102" duration="42000" />
       <workItem from="1707999993635" duration="21000" />
       <workItem from="1708000028903" duration="66000" />
-      <workItem from="1708000109796" duration="93000" />
+      <workItem from="1708000109796" duration="13347000" />
     </task>
     <servers />
   </component>

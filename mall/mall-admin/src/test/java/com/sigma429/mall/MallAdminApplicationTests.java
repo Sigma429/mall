@@ -6,20 +6,17 @@ import com.sigma429.mall.model.UmsAdmin;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootTest
+@RestController
 class MallAdminApplicationTests {
-    @Autowired
-    private UmsAdminMapper adminMapper;
     @Test
     void contextLoads() {
     }
-    @Test
-    public void register(){
-        UmsAdmin umsAdmin = new UmsAdmin();
-
-        // 将密码进行加密操作
-        String encodePassword = BCrypt.hashpw("123");
-        System.out.println(encodePassword);
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello World!";
     }
 }

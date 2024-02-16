@@ -34,8 +34,8 @@ public class AuthController {
     @ApiOperation("Oauth2获取token")
     @PostMapping("/token")
     public CommonResult<Oauth2TokenDTO> postAccessToken(HttpServletRequest request,
-                                                        @ApiParam("授权模式") @RequestParam String grant_type, @ApiParam(
-                                                                "Oauth2客户端ID") @RequestParam String client_id,
+                                                        @ApiParam("授权模式") @RequestParam String grant_type,
+                                                        @ApiParam("Oauth2客户端ID") @RequestParam String client_id,
                                                         @ApiParam("Oauth2客户端秘钥") @RequestParam String client_secret,
                                                         @ApiParam("刷新token") @RequestParam(required = false) String refresh_token,
                                                         @ApiParam("登录用户名") @RequestParam(required = false) String username,
