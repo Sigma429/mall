@@ -103,9 +103,21 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         params.put("password", password);
         CommonResult restResult = authService.getAccessToken(params);
         if (ResultCode.SUCCESS.getCode() == restResult.getCode() && restResult.getData() != null) {
+            updateLoginTime(username);
             insertLoginLog(username);
         }
         return restResult;
+    }
+
+    /**
+     * 更新最后登录时间
+     */
+    private void updateLoginTime(String username) {
+        UmsAdminExample example = new UmsAdminExample();
+        example.createCriteria().andUsernameEqualTo(username);
+        UmsAdmin umsAdmin = new UmsAdmin();
+        umsAdmin.setLoginTime(new Date());
+        adminMapper.updateByExampleSelective(umsAdmin, example);
     }
 
     /**

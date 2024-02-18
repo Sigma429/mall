@@ -1,4 +1,4 @@
-package com.sigma429.mall.log;
+package com.sigma429.mall.aspect;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;

@@ -72,7 +72,7 @@ public class UmsMenuServiceImpl implements UmsMenuService {
 
     @Override
     public List<UmsMenu> list(Long parentId, Integer pageSize, Integer pageNum) {
-        PageHelper.startPage(pageSize, pageNum);
+        PageHelper.startPage(pageNum, pageSize);
         UmsMenuExample example = new UmsMenuExample();
         example.setOrderByClause("sort desc");
         example.createCriteria().andParentIdEqualTo(parentId);

@@ -1,12 +1,13 @@
 package com.sigma429.mall.model;
 
 import io.swagger.annotations.ApiModelProperty;
+
 import java.io.Serializable;
 
 public class PmsProductCategory implements Serializable {
     private Long id;
 
-    @ApiModelProperty(value = "上机分类的编号：0表示一级分类")
+    @ApiModelProperty(value = "上级分类的编号：0表示一级分类")
     private Long parentId;
 
     private String name;

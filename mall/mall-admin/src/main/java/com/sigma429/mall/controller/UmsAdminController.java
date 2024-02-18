@@ -56,11 +56,6 @@ public class UmsAdminController {
         return adminService.login(umsAdminLoginParam.getUsername(), umsAdminLoginParam.getPassword());
     }
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello World!";
-    }
-
     @ApiOperation(value = "获取当前登录用户信息")
     @GetMapping("/info")
     public CommonResult getAdminInfo() {

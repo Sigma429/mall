@@ -5,29 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33bdc7f-aa81-4956-aced-0d3f8619f212" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mall/mall-common/src/main/java/com/sigma429/mall/annotation/CacheException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-common/src/main/java/com/sigma429/mall/aspect/RedisCacheAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/component/ResourceRoleRulesHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/component/ResourceRoleRulesHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/UmsAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/PmsProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/PmsProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsResourceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/UmsAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsAdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsAdminServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsMenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsResourceServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/UmsRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/filter/AuthGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/java/com/sigma429/mall/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/filter/AuthGlobalFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/com/sigma429/mall/filter/AuthGlobalFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-common/src/main/java/com/sigma429/mall/log/WebLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-common/src/main/java/com/sigma429/mall/aspect/WebLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-common/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-common/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-mbg/src/main/java/com/sigma429/mall/model/PmsProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-mbg/src/main/java/com/sigma429/mall/model/PmsProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-mbg/src/main/resources/com/sigma429/mall/mapper/PmsProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-mbg/src/main/resources/com/sigma429/mall/mapper/PmsProductMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +60,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2cOtnlRRhE0bVpiTzLucvtxzuDL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -205,7 +210,7 @@
       <workItem from="1707999946102" duration="42000" />
       <workItem from="1707999993635" duration="21000" />
       <workItem from="1708000028903" duration="66000" />
-      <workItem from="1708000109796" duration="41766000" />
+      <workItem from="1708000109796" duration="62972000" />
     </task>
     <servers />
   </component>
