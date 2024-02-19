@@ -25,7 +25,7 @@ public class PmsProductCategoryController {
     @Autowired
     private PmsProductCategoryService productCategoryService;
 
-    @ApiOperation("添加产品分类")
+    @ApiOperation("添加商品分类")
     @PostMapping("/create")
     public CommonResult create(@Validated @RequestBody PmsProductCategoryParam productCategoryParam) {
         int count = productCategoryService.create(productCategoryParam);
