@@ -47,7 +47,7 @@ export default {
         host: '',
         callback: ''
       },
-      useOss: true, //使用oss->true;使用MinIO->false
+      useOss: false, //使用oss->true;使用MinIO->false
       ossUploadUrl: 'http://sigma429-oss.oss-cn-beijing.aliyuncs.com',
       minioUploadUrl: 'http://localhost:8080/minio/upload',
     }
