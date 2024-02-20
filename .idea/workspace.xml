@@ -5,107 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33bdc7f-aa81-4956-aced-0d3f8619f212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/config/OssConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Tinymce/components/editorImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Tinymce/components/editorImage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/multiUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/multiUpload.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/singleUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/singleUpload.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/MinioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/MinioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/dto/OssCallbackParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/dto/OssCallbackParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OssServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/PmsProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/PmsProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/dto/OssCallbackParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/dto/OssCallbackParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OssServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OssServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/PmsProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/PmsProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/controller/MemberProductCollectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/controller/MemberProductCollectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/PmsPortalBrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/PmsPortalBrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/PmsPortalProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/PmsPortalProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/bootstrap-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/bootstrap-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/MallPortalApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/MemberAttentionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/MemberProductCollectionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/MemberReadHistoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/OmsCartItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/OmsPortalOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/OmsPortalOrderReturnApplyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/PmsPortalProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/PortalBrandController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/UmsMemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/UmsMemberCouponController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/controller/UmsMemberReceiveAddressController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/dao/HomeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/dao/PortalOrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/dao/PortalOrderItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/dao/PortalProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/dao/SmsCouponHistoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/AliPayParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/CartProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/CartPromotionItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/ConfirmOrderResult$CalcAmount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/ConfirmOrderResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/FlashPromotionProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/HomeContentResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/HomeFlashPromotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/MemberBrandAttention.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/MemberProductCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/MemberReadHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/OmsOrderDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/OmsOrderReturnApplyParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/OrderParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/PmsPortalProductDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/PmsProductCategoryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/PromotionProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/QueueEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/domain/SmsCouponHistoryDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/AlipayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/HomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/MemberAttentionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/MemberCollectionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/MemberReadHistoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/OmsCartItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/OmsPortalOrderReturnApplyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/OmsPortalOrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/OmsPromotionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/PmsPortalProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/PortalBrandService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/UmsMemberCacheService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/UmsMemberCouponService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/UmsMemberReceiveAddressService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/UmsMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/AlipayServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/HomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberAttentionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberCollectionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberReadHistoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsCartItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsPortalOrderReturnApplyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsPortalOrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsPromotionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/PmsPortalProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/PortalBrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberCacheServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberCouponServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberReceiveAddressServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/dao/HomeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/dao/PortalOrderDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/dao/PortalOrderItemDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/dao/PortalProductDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/dao/SmsCouponHistoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/test-classes/com/sigma429/mall/MallPortalApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/bootstrap-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/bootstrap-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/dao/HomeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/dao/PortalOrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/dao/PortalOrderItemDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/dao/PortalProductDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall-portal/dao/SmsCouponHistoryDao.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +73,7 @@
     "Spring Boot.MallAuthApplication.executor": "Run",
     "Spring Boot.MallGatewayApplication.executor": "Run",
     "Spring Boot.MallMonitorApplication.executor": "Run",
-    "Spring Boot.MallPortalApplication.executor": "Debug",
+    "Spring Boot.MallPortalApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "JDK17.0.5",
     "kotlin-language-version-configured": "true",
@@ -309,7 +216,7 @@
       <workItem from="1707999993635" duration="21000" />
       <workItem from="1708000028903" duration="66000" />
       <workItem from="1708000109796" duration="95174000" />
-      <workItem from="1708417918326" duration="26011000" />
+      <workItem from="1708417918326" duration="26655000" />
     </task>
     <servers />
   </component>
