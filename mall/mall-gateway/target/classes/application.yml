@@ -23,24 +23,24 @@ spring:
             - Path=/mall-admin/**
           filters:
             - StripPrefix=1
-#        - id: mall-portal
-#          uri: lb://mall-portal
-#          predicates:
-#            - Path=/mall-portal/**
-#          filters:
-#            - StripPrefix=1
-#        - id: mall-search
-#          uri: lb://mall-search
-#          predicates:
-#            - Path=/mall-search/**
-#          filters:
-#            - StripPrefix=1
-#        - id: mall-demo
-#          uri: lb://mall-demo
-#          predicates:
-#            - Path=/mall-demo/**
-#          filters:
-#            - StripPrefix=1
+        - id: mall-portal
+          uri: lb://mall-portal
+          predicates:
+            - Path=/mall-portal/**
+          filters:
+            - StripPrefix=1
+  #        - id: mall-search
+  #          uri: lb://mall-search
+  #          predicates:
+  #            - Path=/mall-search/**
+  #          filters:
+  #            - StripPrefix=1
+  #        - id: mall-demo
+  #          uri: lb://mall-demo
+  #          predicates:
+  #            - Path=/mall-demo/**
+  #          filters:
+  #            - StripPrefix=1
   security:
     oauth2:
       resourceserver:
@@ -77,6 +77,7 @@ secure:
       - "/mall-admin/admin/login"
       - "/mall-admin/admin/register"
       - "/mall-admin/minio/upload"
+      - "/mall-admin/aliyun/oss/**"
 management: #开启SpringBoot Admin的监控
   endpoints:
     web:

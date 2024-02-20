@@ -11,7 +11,6 @@ import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -51,7 +50,7 @@ public class MinioController {
             } else {
                 // 创建存储桶并设置只读权限
                 minioClient.makeBucket(MakeBucketArgs.builder().bucket(BUCKET_NAME).build());
-                BucketPolicyConfigDTO bucketPolicyConfigDTO = createBucketPolicyConfigDto(BUCKET_NAME);
+                BucketPolicyConfigDTO bucketPolicyConfigDTO = createBucketPolicyConfigDTO(BUCKET_NAME);
                 SetBucketPolicyArgs setBucketPolicyArgs = SetBucketPolicyArgs.builder()
                         .bucket(BUCKET_NAME)
                         .config(JSONUtil.toJsonStr(bucketPolicyConfigDTO))
@@ -70,10 +69,10 @@ public class MinioController {
                     .stream(file.getInputStream(), file.getSize(), ObjectWriteArgs.MIN_MULTIPART_SIZE).build();
             minioClient.putObject(putObjectArgs);
             LOGGER.info("文件上传成功!");
-            MinioUploadDTO minioUploadDto = new MinioUploadDTO();
-            minioUploadDto.setName(filename);
-            minioUploadDto.setUrl(ENDPOINT + "/" + BUCKET_NAME + "/" + objectName);
-            return CommonResult.success(minioUploadDto);
+            MinioUploadDTO minioUploadDTO = new MinioUploadDTO();
+            minioUploadDTO.setName(filename);
+            minioUploadDTO.setUrl(ENDPOINT + "/" + BUCKET_NAME + "/" + objectName);
+            return CommonResult.success(minioUploadDTO);
         } catch (Exception e) {
             e.printStackTrace();
             LOGGER.info("上传发生错误: {}！", e.getMessage());
@@ -81,7 +80,7 @@ public class MinioController {
         return CommonResult.failed();
     }
 
-    private BucketPolicyConfigDTO createBucketPolicyConfigDto(String bucketName) {
+    private BucketPolicyConfigDTO createBucketPolicyConfigDTO(String bucketName) {
         BucketPolicyConfigDTO.Statement statement = BucketPolicyConfigDTO.Statement.builder()
                 .Effect("Allow")
                 .Principal("*")

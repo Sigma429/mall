@@ -175,6 +175,7 @@ public class PmsProductServiceImpl implements PmsProductService {
             skuStockMapper.deleteByExample(skuStockExample);
             return;
         }
+        // 如果直接删除该商品的所有SKU信息，再重新添加。这样就会导致商品SKU中的ID被修改，由于在购物车和订单商品中关联了商品SKU的ID，就会导致原来的ID失效的问题。
         // 获取初始SKU信息
         PmsSkuStockExample skuStockExample = new PmsSkuStockExample();
         skuStockExample.createCriteria().andProductIdEqualTo(id);
