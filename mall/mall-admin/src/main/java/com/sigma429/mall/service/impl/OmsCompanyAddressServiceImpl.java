@@ -1,7 +1,10 @@
 package com.sigma429.mall.service.impl;
 
+import com.sigma429.mall.mapper.OmsCompanyAddressMapper;
 import com.sigma429.mall.model.OmsCompanyAddress;
+import com.sigma429.mall.model.OmsCompanyAddressExample;
 import com.sigma429.mall.service.OmsCompanyAddressService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,8 +19,11 @@ import java.util.List;
  */
 @Service
 public class OmsCompanyAddressServiceImpl implements OmsCompanyAddressService {
+    @Autowired
+    private OmsCompanyAddressMapper companyAddressMapper;
+
     @Override
     public List<OmsCompanyAddress> list() {
-        return null;
+        return companyAddressMapper.selectByExample(new OmsCompanyAddressExample());
     }
 }

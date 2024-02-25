@@ -14939,7 +14939,7 @@ LABL 0 新宋体,8,N</a:FontList>
 <a:Creator>zhenghong</a:Creator>
 <a:ModificationDate>1522723859</a:ModificationDate>
 <a:Modifier>zhenghong</a:Modifier>
-<a:Comment>促销优化金额（促销价、满减、阶梯价）</a:Comment>
+<a:Comment>促销优惠金额（促销价、满减、阶梯价）</a:Comment>
 <a:DataType>decimal(10,2)</a:DataType>
 <a:Length>10</a:Length>
 <a:Precision>2</a:Precision>
@@ -15085,7 +15085,7 @@ LABL 0 新宋体,8,N</a:FontList>
 <a:Creator>zhenghong</a:Creator>
 <a:ModificationDate>1522660081</a:ModificationDate>
 <a:Modifier>zhenghong</a:Modifier>
-<a:Comment>可以活动的成长值</a:Comment>
+<a:Comment>可以获得的成长值</a:Comment>
 <a:DataType>int</a:DataType>
 </o:Column>
 <o:Column Id="o864">

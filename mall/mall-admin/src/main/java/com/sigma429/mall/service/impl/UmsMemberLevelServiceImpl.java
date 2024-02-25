@@ -1,7 +1,10 @@
 package com.sigma429.mall.service.impl;
 
+import com.sigma429.mall.mapper.UmsMemberLevelMapper;
 import com.sigma429.mall.model.UmsMemberLevel;
+import com.sigma429.mall.model.UmsMemberLevelExample;
 import com.sigma429.mall.service.UmsMemberLevelService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,8 +19,13 @@ import java.util.List;
  */
 @Service
 public class UmsMemberLevelServiceImpl implements UmsMemberLevelService {
+    @Autowired
+    private UmsMemberLevelMapper memberLevelMapper;
+
     @Override
     public List<UmsMemberLevel> list(Integer defaultStatus) {
-        return null;
+        UmsMemberLevelExample example = new UmsMemberLevelExample();
+        example.createCriteria().andDefaultStatusEqualTo(defaultStatus);
+        return memberLevelMapper.selectByExample(example);
     }
 }

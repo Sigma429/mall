@@ -65,26 +65,24 @@
     </update>
     <select id="getDetail" resultMap="orderDetailResultMap">
         SELECT o.*,
-            oi.id item_id,
-            oi.product_id item_product_id,
-            oi.product_sn item_product_sn,
-            oi.product_pic item_product_pic,
-            oi.product_name item_product_name,
-            oi.product_brand item_product_brand,
-            oi.product_price item_product_price,
-            oi.product_quantity item_product_quantity,
-            oi.product_attr item_product_attr,
-            oh.id history_id,
-            oh.operate_man history_operate_man,
-            oh.create_time history_create_time,
-            oh.order_status history_order_status,
-            oh.note history_note
-        FROM
-            oms_order o
-            LEFT JOIN oms_order_item oi ON o.id = oi.order_id
-            LEFT JOIN oms_order_operate_history oh ON o.id = oh.order_id
-        WHERE
-            o.id = #{id}
-        ORDER BY oi.id ASC,oh.create_time DESC
+               oi.id               item_id,
+               oi.product_id       item_product_id,
+               oi.product_sn       item_product_sn,
+               oi.product_pic      item_product_pic,
+               oi.product_name     item_product_name,
+               oi.product_brand    item_product_brand,
+               oi.product_price    item_product_price,
+               oi.product_quantity item_product_quantity,
+               oi.product_attr     item_product_attr,
+               oh.id               history_id,
+               oh.operate_man      history_operate_man,
+               oh.create_time      history_create_time,
+               oh.order_status     history_order_status,
+               oh.note             history_note
+        FROM oms_order o
+                 LEFT JOIN oms_order_item oi ON o.id = oi.order_id
+                 LEFT JOIN oms_order_operate_history oh ON o.id = oh.order_id
+        WHERE o.id = #{id}
+        ORDER BY oi.id ASC, oh.create_time DESC
     </select>
 </mapper>

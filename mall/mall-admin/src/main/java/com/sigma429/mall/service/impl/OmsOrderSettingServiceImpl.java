@@ -1,7 +1,9 @@
 package com.sigma429.mall.service.impl;
 
+import com.sigma429.mall.mapper.OmsOrderSettingMapper;
 import com.sigma429.mall.model.OmsOrderSetting;
 import com.sigma429.mall.service.OmsOrderSettingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -14,13 +16,17 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OmsOrderSettingServiceImpl implements OmsOrderSettingService {
+    @Autowired
+    private OmsOrderSettingMapper orderSettingMapper;
+
     @Override
     public OmsOrderSetting getItem(Long id) {
-        return null;
+        return orderSettingMapper.selectByPrimaryKey(id);
     }
 
     @Override
     public int update(Long id, OmsOrderSetting orderSetting) {
-        return 0;
+        orderSetting.setId(id);
+        return orderSettingMapper.updateByPrimaryKey(orderSetting);
     }
 }

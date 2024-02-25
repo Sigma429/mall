@@ -65,7 +65,7 @@ export default {
       dialogVisible: false,
       useOss: false, //使用oss->true;使用MinIO->false
       ossUploadUrl: 'http://sigma429-oss.oss-cn-beijing.aliyuncs.com',
-      minioUploadUrl: 'http://localhost:8080/minio/upload',
+      minioUploadUrl: 'http://localhost:8201/mall-admin/minio/upload',
     };
   },
   methods: {

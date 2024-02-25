@@ -14,9 +14,9 @@ import Layout from '../views/layout/Layout'
  * redirect: noredirect           if `redirect:noredirect` will no redirct in the breadcrumb
  * name:'router-name'             the name is used by <keep-alive> (must set!!!)
  * meta : {
-    title: 'title'               the name show in submenu and breadcrumb (recommend set)
-    icon: 'svg-name'             the icon show in the sidebar,
-  }
+ title: 'title'               the name show in submenu and breadcrumb (recommend set)
+ icon: 'svg-name'             the icon show in the sidebar,
+ }
  **/
 export const constantRouterMap = [
   {path: '/login', component: () => import('@/views/login/index'), hidden: true},
@@ -32,16 +32,11 @@ export const constantRouterMap = [
       component: () => import('@/views/home/index'),
       meta: {title: '仪表盘', icon: 'dashboard'}
     },
-    {
-      name: 'document',
-      path: 'https://www.macrozheng.com',
-      meta: {title: '学习教程', icon: 'document'}
-    },
-    {
-      name: 'video',
-      path: 'https://www.macrozheng.com/mall/catalog/mall_video.html',
-      meta: {title: '视频教程', icon: 'video'}
-    },
+      {
+        name: 'github',
+        path: 'https://github.com/Sigma429/mall',
+        meta: {title: 'GitHub', icon: 'github'}
+      },
     ]
   }
 ]
@@ -159,14 +154,14 @@ export const asyncRouterMap = [
         name: 'orderDetail',
         component: () => import('@/views/oms/order/orderDetail'),
         meta: {title: '订单详情'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'deliverOrderList',
         name: 'deliverOrderList',
         component: () => import('@/views/oms/order/deliverOrderList'),
         meta: {title: '发货列表'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'orderSetting',
@@ -191,12 +186,12 @@ export const asyncRouterMap = [
         name: 'returnApplyDetail',
         component: () => import('@/views/oms/apply/applyDetail'),
         meta: {title: '退货原因详情'},
-        hidden:true
+        hidden: true
       }
     ]
   },
   {
-    path:'/sms',
+    path: '/sms',
     component: Layout,
     redirect: '/sms/coupon',
     name: 'sms',
@@ -213,21 +208,21 @@ export const asyncRouterMap = [
         name: 'flashSession',
         component: () => import('@/views/sms/flash/sessionList'),
         meta: {title: '秒杀时间段列表'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'selectSession',
         name: 'selectSession',
         component: () => import('@/views/sms/flash/selectSessionList'),
         meta: {title: '秒杀时间段选择'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'flashProductRelation',
         name: 'flashProductRelation',
         component: () => import('@/views/sms/flash/productRelationList'),
         meta: {title: '秒杀商品列表'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'coupon',
@@ -240,21 +235,21 @@ export const asyncRouterMap = [
         name: 'addCoupon',
         component: () => import('@/views/sms/coupon/add'),
         meta: {title: '添加优惠券'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'updateCoupon',
         name: 'updateCoupon',
         component: () => import('@/views/sms/coupon/update'),
         meta: {title: '修改优惠券'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'couponHistory',
         name: 'couponHistory',
         component: () => import('@/views/sms/coupon/history'),
         meta: {title: '优惠券领取详情'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'brand',
@@ -291,19 +286,19 @@ export const asyncRouterMap = [
         name: 'addHomeAdvertise',
         component: () => import('@/views/sms/advertise/add'),
         meta: {title: '添加广告'},
-        hidden:true
+        hidden: true
       },
       {
         path: 'updateAdvertise',
         name: 'updateHomeAdvertise',
         component: () => import('@/views/sms/advertise/update'),
         meta: {title: '编辑广告'},
-        hidden:true
+        hidden: true
       }
     ]
   },
   {
-    path:'/ums',
+    path: '/ums',
     component: Layout,
     redirect: '/ums/admin',
     name: 'ums',

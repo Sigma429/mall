@@ -25,9 +25,8 @@ public class OmsOrderController {
 
     @ApiOperation("查询订单")
     @GetMapping("/list")
-    public CommonResult<CommonPage<OmsOrder>> list(OmsOrderQueryParam queryParam,
-                                                   @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
-                                                   @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
+    public CommonResult<CommonPage<OmsOrder>> list(OmsOrderQueryParam queryParam, @RequestParam(value = "pageSize",
+            defaultValue = "5") Integer pageSize, @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
         List<OmsOrder> orderList = orderService.list(queryParam, pageSize, pageNum);
         return CommonResult.success(CommonPage.restPage(orderList));
     }
@@ -91,9 +90,8 @@ public class OmsOrderController {
 
     @ApiOperation("备注订单")
     @PostMapping("/update/note")
-    public CommonResult updateNote(@RequestParam("id") Long id,
-                                   @RequestParam("note") String note,
-                                   @RequestParam("status") Integer status) {
+    public CommonResult updateNote(@RequestParam("id") Long id, @RequestParam("note") String note, @RequestParam(
+            "status") Integer status) {
         int count = orderService.updateNote(id, note, status);
         if (count > 0) {
             return CommonResult.success(count);
