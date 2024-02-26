@@ -5,65 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33bdc7f-aa81-4956-aced-0d3f8619f212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-admin-web/src/icons/svg/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/controller/EsProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/dao/EsProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/domain/EsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/domain/EsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/domain/EsProductRelatedInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/repository/EsProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/service/EsProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/service/impl/EsProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/mall-search/src/main/resources/dao/EsProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/component/FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/controller/FeignAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/controller/FeignPortalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/controller/FeignSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/dto/PmsBrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/dto/UmsAdminLoginParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/service/FeignAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/service/FeignPortalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/service/FeignSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/validator/FlagValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/validator/FlagValidatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/component/CancelOrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/component/CancelOrderSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/repository/MemberBrandAttentionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/repository/MemberProductCollectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/repository/MemberReadHistoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Tinymce/components/editorImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Tinymce/components/editorImage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/multiUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/multiUpload.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/singleUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/components/Upload/singleUpload.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/views/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/views/home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin-web/static/tinymce4.7.5/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin-web/static/tinymce4.7.5/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-app-web/pages/public/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-app-web/pages/public/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-app-web/pages/public/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/mall-app-web/pages/public/register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-app-web/utils/appConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/mall-app-web/utils/appConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/document/pdm/mall.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/mall/document/pdm/mall.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/document/pdm/mall.pdm" beforeDir="false" afterPath="$PROJECT_DIR$/mall/document/pdm/mall.pdm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/document/sql/mall.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mall/document/sql/mall.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/OmsOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/controller/OmsOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsCompanyAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsCompanyAddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderReturnApplyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderReturnApplyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderReturnReasonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderReturnReasonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderSettingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/OmsOrderSettingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMemberLevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/java/com/sigma429/mall/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/dao/OmsOrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/dao/OmsOrderDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/dao/OmsOrderReturnApplyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/src/main/resources/dao/OmsOrderReturnApplyDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/OmsOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/controller/OmsOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderReturnApplyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderReturnApplyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderReturnReasonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderReturnReasonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderSettingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/com/sigma429/mall/service/impl/OmsOrderSettingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/dao/OmsOrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/dao/OmsOrderDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-admin/target/classes/dao/OmsOrderReturnApplyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-admin/target/classes/dao/OmsOrderReturnApplyDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/MallDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-demo/src/main/java/com/sigma429/mall/MallDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-demo/target/classes/com/sigma429/mall/MallDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-demo/target/classes/com/sigma429/mall/MallDemoApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-mbg/src/main/java/com/sigma429/mall/model/OmsOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-mbg/src/main/java/com/sigma429/mall/model/OmsOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-mbg/target/classes/com/sigma429/mall/model/OmsOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-mbg/target/classes/com/sigma429/mall/model/OmsOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/OmsCartItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/OmsCartItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberAttentionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberAttentionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberCollectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberCollectionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberReadHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/MemberReadHistoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsCartItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsCartItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPortalOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPortalOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPromotionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPromotionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberCacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberCacheServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberReceiveAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-portal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberAttentionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberAttentionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberCollectionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberCollectionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberReadHistoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/MemberReadHistoryServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsCartItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsCartItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberCacheServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberCacheServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberReceiveAddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberReceiveAddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall/mall-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsPromotionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-portal/target/classes/com/sigma429/mall/service/impl/OmsPromotionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/controller/EsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/controller/EsProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/service/impl/EsProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-search/src/main/java/com/sigma429/mall/service/impl/EsProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/mall-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall/mall-search/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +106,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.MallAdminApplication.executor": "Debug",
-    "Spring Boot.MallAuthApplication.executor": "Run",
-    "Spring Boot.MallGatewayApplication.executor": "Run",
-    "Spring Boot.MallMonitorApplication.executor": "Run",
+    "Spring Boot.MallAuthApplication.executor": "Debug",
+    "Spring Boot.MallDemoApplication.executor": "Debug",
+    "Spring Boot.MallGatewayApplication.executor": "Debug",
+    "Spring Boot.MallMonitorApplication.executor": "Debug",
     "Spring Boot.MallPortalApplication.executor": "Debug",
+    "Spring Boot.MallSearchApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "JDK17.0.5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project/mall/mall/mall-search/src/main/java/com/sigma429/mall/domain",
+    "last_opened_file_path": "D:/Project/mall/mall/mall-portal/src/main/java/com/sigma429/mall/component",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -155,11 +142,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\mall\mall\mall-portal\src\main\java\com\sigma429\mall\component" />
+      <recent name="D:\Project\mall\mall\mall-portal\src\main\java\com\sigma429\mall\repository" />
+      <recent name="D:\Project\mall\mall\mall-demo\src\main\java\com\sigma429\mall" />
       <recent name="D:\Project\mall\mall\mall-search\src\main\java\com\sigma429\mall\domain" />
       <recent name="D:\Project\mall\mall\mall-search\src\main\resources" />
-      <recent name="D:\Project\mall\mall\mall-search\src\main\java\com\sigma429\mall\config" />
-      <recent name="D:\Project\mall\mall-admin-web\src\icons\svg" />
-      <recent name="D:\Project\mall\mall\mall-portal\src\main\java\com\sigma429\mall\service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\mall" />
@@ -271,7 +258,8 @@
       <workItem from="1708000028903" duration="66000" />
       <workItem from="1708000109796" duration="95174000" />
       <workItem from="1708417918326" duration="26655000" />
-      <workItem from="1708761704786" duration="24388000" />
+      <workItem from="1708761704786" duration="50992000" />
+      <workItem from="1708923100881" duration="2464000" />
     </task>
     <servers />
   </component>
@@ -282,5 +270,21 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mall" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPortalOrderServiceImpl.java</url>
+          <line>297</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mall/mall-portal/src/main/java/com/sigma429/mall/service/impl/OmsPortalOrderServiceImpl.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

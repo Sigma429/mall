@@ -319,18 +319,23 @@ src -- 源码目录
     3. 条件查询可以在service层判断条件，也可以用dto传到mapper层，用动态sql做判断
     4. 后台订单业务已完成
     5. 商品搜索模块初步搭建
+- Day12
+    1. search模块完成
+    2. demo模块完成
+    3. 会员模块完成
+    4. 
 
 #### 学习进度
 
 1. admin
 2. auth √
 3. common √
-4. demo
+4. demo √
 5. gateway √
 6. mbg √
 7. monitor √
 8. portal
-9. search
+9. search √
 
 ### 前端
 

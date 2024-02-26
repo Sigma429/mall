@@ -29,18 +29,18 @@ spring:
             - Path=/mall-portal/**
           filters:
             - StripPrefix=1
-  #        - id: mall-search
-  #          uri: lb://mall-search
-  #          predicates:
-  #            - Path=/mall-search/**
-  #          filters:
-  #            - StripPrefix=1
-  #        - id: mall-demo
-  #          uri: lb://mall-demo
-  #          predicates:
-  #            - Path=/mall-demo/**
-  #          filters:
-  #            - StripPrefix=1
+        - id: mall-search
+          uri: lb://mall-search
+          predicates:
+            - Path=/mall-search/**
+          filters:
+            - StripPrefix=1
+        - id: mall-demo
+          uri: lb://mall-demo
+          predicates:
+            - Path=/mall-demo/**
+          filters:
+            - StripPrefix=1
   security:
     oauth2:
       resourceserver:

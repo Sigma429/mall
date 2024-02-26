@@ -99,26 +99,47 @@ public class OmsCartItemServiceImpl implements OmsCartItemService {
 
     @Override
     public int updateQuantity(Long id, Long memberId, Integer quantity) {
-        return 0;
+        OmsCartItem cartItem = new OmsCartItem();
+        cartItem.setQuantity(quantity);
+        OmsCartItemExample example = new OmsCartItemExample();
+        example.createCriteria().andDeleteStatusEqualTo(0)
+                .andIdEqualTo(id).andMemberIdEqualTo(memberId);
+        return cartItemMapper.updateByExampleSelective(cartItem, example);
     }
 
     @Override
     public int delete(Long memberId, List<Long> ids) {
-        return 0;
+        OmsCartItem record = new OmsCartItem();
+        record.setDeleteStatus(1);
+        OmsCartItemExample example = new OmsCartItemExample();
+        example.createCriteria().andIdIn(ids).andMemberIdEqualTo(memberId);
+        return cartItemMapper.updateByExampleSelective(record, example);
     }
 
     @Override
     public CartProduct getCartProduct(Long productId) {
-        return null;
+        return productDao.getCartProduct(productId);
     }
 
     @Override
     public int updateAttr(OmsCartItem cartItem) {
-        return 0;
+        // 删除原购物车信息
+        OmsCartItem updateCart = new OmsCartItem();
+        updateCart.setId(cartItem.getId());
+        updateCart.setModifyDate(new Date());
+        updateCart.setDeleteStatus(1);
+        cartItemMapper.updateByPrimaryKeySelective(updateCart);
+        cartItem.setId(null);
+        add(cartItem);
+        return 1;
     }
 
     @Override
     public int clear(Long memberId) {
-        return 0;
+        OmsCartItem record = new OmsCartItem();
+        record.setDeleteStatus(1);
+        OmsCartItemExample example = new OmsCartItemExample();
+        example.createCriteria().andMemberIdEqualTo(memberId);
+        return cartItemMapper.updateByExampleSelective(record, example);
     }
 }
