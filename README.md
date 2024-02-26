@@ -323,7 +323,8 @@ src -- 源码目录
     1. search模块完成
     2. demo模块完成
     3. 会员模块完成
-    4. 
+    4. mongodb应用完成
+    5. ElasticSearch应用完成
 
 #### 学习进度
 
