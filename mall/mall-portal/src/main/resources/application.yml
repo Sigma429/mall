@@ -28,12 +28,12 @@ spring:
     port: 6379 # Redis服务器连接端口
     password:  # Redis服务器连接密码（默认为空）
     timeout: 3000ms # 连接超时时间（毫秒）
-#  rabbitmq:
-#    host: 192.168.10.100
-#    port: 5672
-#    virtual-host: /mall
-#    username: mall
-#    password: mall
+  rabbitmq:
+    host: 192.168.10.100
+    port: 5672
+    virtual-host: /mall
+    username: mall
+    password: mall
 mybatis:
   mapper-locations:
     - classpath:dao/*.xml
@@ -56,10 +56,10 @@ redis:
     authCode: 90 # 验证码超期时间
     common: 86400 # 24小时
 # 消息队列定义
-#rabbitmq:
-#  queue:
-#    name:
-#      cancelOrder: cancelOrderQueue
+rabbitmq:
+  queue:
+    name:
+      cancelOrder: cancelOrderQueue
 feign:
   okhttp:
     enabled: true
