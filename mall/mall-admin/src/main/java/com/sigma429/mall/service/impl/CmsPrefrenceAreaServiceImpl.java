@@ -1,7 +1,10 @@
 package com.sigma429.mall.service.impl;
 
+import com.sigma429.mall.mapper.CmsPrefrenceAreaMapper;
 import com.sigma429.mall.model.CmsPrefrenceArea;
+import com.sigma429.mall.model.CmsPrefrenceAreaExample;
 import com.sigma429.mall.service.CmsPrefrenceAreaService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,8 +19,11 @@ import java.util.List;
  */
 @Service
 public class CmsPrefrenceAreaServiceImpl implements CmsPrefrenceAreaService {
+    @Autowired
+    private CmsPrefrenceAreaMapper prefrenceAreaMapper;
+
     @Override
     public List<CmsPrefrenceArea> listAll() {
-        return null;
+        return prefrenceAreaMapper.selectByExample(new CmsPrefrenceAreaExample());
     }
 }

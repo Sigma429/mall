@@ -330,19 +330,9 @@ src -- 源码目录
     2. 与同事交流学习
 - Day14
     1. 用RabbitMQ的延时队列实现自动取消订单
-    2.
-
-#### 学习进度
-
-1. admin
-2. auth √
-3. common √
-4. demo √
-5. gateway √
-6. mbg √
-7. monitor √
-8. portal
-9. search √
+    2. 营销模块完成
+    3. 支付宝支付完成
+    4. SpringTask定时任务完成
 
 ### 前端
 

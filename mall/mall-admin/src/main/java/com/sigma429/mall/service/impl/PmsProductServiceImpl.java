@@ -73,7 +73,6 @@ public class PmsProductServiceImpl implements PmsProductService {
     public int create(PmsProductParam productParam) {
         int count;
         PmsProduct product = productParam;
-        // TODO 这里的id有必要设置吗
         product.setId(null);
         productMapper.insertSelective(product);
         // 根据促销类型设置价格：会员价格、阶梯价格、满减价格
