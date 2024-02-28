@@ -15,8 +15,6 @@
     <version>0.0.1</version>
     <packaging>pom</packaging>
 
-    <name>mall</name>
-    <description>mall</description>
 
     <modules>
         <module>mall-admin</module>
@@ -35,7 +33,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <skipTests>true</skipTests>
-        <docker.host>http://192.168.3.101:2375</docker.host>
+        <docker.host>http://192.168.10.100:2375</docker.host>
         <docker.maven.plugin.version>0.40.0</docker.maven.plugin.version>
         <spring-boot.version>2.7.0</spring-boot.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
