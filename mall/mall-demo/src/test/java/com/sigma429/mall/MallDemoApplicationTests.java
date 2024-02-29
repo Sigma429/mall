@@ -1,13 +1,29 @@
 package com.sigma429.mall;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sigma429.mall.model.PmsProduct;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class MallDemoApplicationTests {
 
+    private Logger logger = LoggerFactory.getLogger(MallDemoApplicationTests.class);
+
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
+    @Test
+    public void testLogStash() throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        PmsProduct product = new PmsProduct();
+        product.setId(1L);
+        product.setName("小米手机");
+        product.setBrandName("小米");
+        logger.info(mapper.writeValueAsString(product));
+        logger.error(mapper.writeValueAsString(product));
+    }
 }
