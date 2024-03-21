@@ -15,20 +15,21 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class CancelOrderSender {
-    private static Logger LOGGER =LoggerFactory.getLogger(CancelOrderSender.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(CancelOrderSender.class);
     @Autowired
     private AmqpTemplate amqpTemplate;
 
-    public void sendMessage(Long orderId,final long delayTimes){
-        //给延迟队列发送消息
-        amqpTemplate.convertAndSend(QueueEnum.QUEUE_TTL_ORDER_CANCEL.getExchange(), QueueEnum.QUEUE_TTL_ORDER_CANCEL.getRouteKey(), orderId, new MessagePostProcessor() {
+    public void sendMessage(Long orderId, final long delayTimes) {
+        // 给延迟队列发送消息
+        amqpTemplate.convertAndSend(QueueEnum.QUEUE_TTL_ORDER_CANCEL.getExchange(),
+                QueueEnum.QUEUE_TTL_ORDER_CANCEL.getRouteKey(), orderId, new MessagePostProcessor() {
             @Override
             public Message postProcessMessage(Message message) throws AmqpException {
-                //给消息设置延迟毫秒值
+                // 给消息设置延迟毫秒值
                 message.getMessageProperties().setExpiration(String.valueOf(delayTimes));
                 return message;
             }
         });
-        LOGGER.info("send orderId:{}",orderId);
+        LOGGER.info("send orderId:{}", orderId);
     }
 }
